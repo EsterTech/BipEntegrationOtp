@@ -6,4 +6,26 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Core.ApiHelpers" Version="2.0.0" />
+    <PackageReference Include="Core.Persistence" Version="2.0.0" />
+    <PackageReference Include="Core.Security" Version="2.0.0" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Bip.Entegration.Abstraction">
+      <HintPath>..\..\..\Base\_Dependencies\Bip.Entegration.Abstraction.dll</HintPath>
+    </Reference>
+    <Reference Include="Bip.Entegration.Application">
+      <HintPath>..\..\..\Base\_Dependencies\Bip.Entegration.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Bip.Entegration.Domain">
+      <HintPath>..\..\..\Base\_Dependencies\Bip.Entegration.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
